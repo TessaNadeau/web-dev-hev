@@ -1,3 +1,5 @@
 # Tessa Nadeau's Web-Dev-Homework Repo
-Tessa Nadeau
-Hello!
+
+This is for all my web dev homework.
+
+I am a new web designer at the University of Montana
