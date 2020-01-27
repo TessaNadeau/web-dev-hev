@@ -1,0 +1,25 @@
+1. One way that data travels on the internet is through a
+fiber optic cable. This is a thread of glass that is
+engineered to reflect light. You can send bits of information
+as light beams from one place to another using this cable.
+When you send a beam of light down the cable it
+bounces up and down until it is received at the
+other end. Depending on the direction it takes you
+can send multiple things simultaneously.
+
+2. DNS associates names with corresponding addresses. Your
+computer uses the addresses to look up the domain names and
+get the associated IP address which is used to connect your
+computer to the destination on the internet.
+
+3. Cookies are what websites use to remember who you are. They
+are ID numbers that a website holds onto once you log
+in so that when you return it remembers you.
+
+4. Three basic parts of a URL
+      Protocol (Country) - states how the browser will
+      communicate with the server.
+      Domain (State, City) - main direction to your
+      site.
+      Path - step by step directions to the final
+      room.   
