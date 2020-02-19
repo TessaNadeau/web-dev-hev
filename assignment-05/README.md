@@ -1,0 +1,4 @@
+1. A document can only have one head element and one body element. The head element always comes first within the root element. It contains the high-level information such as links to other files, author information, and passes the name of the page to the processer. The body element contains all of the content and data that is displayed on the browsers page.
+
+2. The structural markup embeds information about the structure of the document such as headings, paragraphs, breaks, and lists. Semantic markup is used to reinforce the information in a document by <em>emphasizing</em> something in a document or to identify a word as being <strong>strong</strong>.
+3. I started my work cycle by creating an assignment 05 folder, a README.md file, then added an images folder, then I created an html file and worked within it and added my screenshot towards the end.
