@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US" dir=ltr>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Tessa Nadeau">
+    <title>Assignment 06</title>
+    <style>
+      table, td {border: .5px solid black}
+    </style>
+  </head>
+<br />
+  <body>
+ <h1> Black Coffee Roasting Co.</h1>
+  <p><strong>Contact<strong></p>
+  <address>
+    525 E. Spruce St. <br />
+    Missoula, MT. 59802 <br />
+    (406) 541-3700 <br />
+  </address>
+  <br />
+  <a href="malto:info@blackcoffeeroastingco.com">Email us! </a>
+  <br />
+  <br />
+
+
+    <table>
+      <tr>
+        <th>Days</th>
+        <th>Times</th>
+      </tr>
+
+      <tr>
+        <td>M-F</td>
+        <td>6:30am-5:30pm</td>
+      </tr>
+
+      <tr>
+        <td>Saturday</td>
+        <td>7:30am-4pm</td>
+      </tr>
+
+      <tr>
+        <td>Sunday</td>
+        <td>8am-3pm</td>
+      </tr>
+    </table>
+      <br />
+      <br />
+    <form action="http://example.com/registration.php" method="post">
+      <hr>
+      <br>
+    What is your first name?:
+    <input type="text" name="firstname" maxlength="8">
+    <br><br>
+    Favorite coffee that we sell:
+    <input type="text" name="favorite" maxlength="15">
+    <br><br>
+    <hr>
+    Select one:
+    <p>Roast Type</p>
+  <input type="radio" name="roast" value="light" /> Light
+  <br />
+  <input type="radio" name="roast" value="medium" checked /> Medium
+  <br />
+  <input type="radio" name="roast" value="dark" /> Dark
+  <br><br>
+  <hr>
+    <p>Favorite Coffee:</p>
+  <select name="Favorite Coffee">
+    <option value="CO">Columbia-Tolima</option>
+    <option value="DR">Drift/option>
+    <option value="LO">LOVE</option>
+    <option value="VI">Vinyl (blend)</option>
+    <option value="AM">AM (Blend)</option>
+    <option value="GT" selected>Guatemala-Huehuetenago</option>
+    <option value="TH">The Dark</option>
+    <option value="RR">Red Room (Blend)</option>
+    <option value="2T">2 Tone </option>
+    <option value="BR">Brazil</option>
+    <option value="CR">Costa Rica - Las Lajas</option>
+    <option value="PA">Papua New Guinea - Chimbu</option>
+    <option value="ES">Ethiopia - Sidama</option>
+    <option value="DM">Decaf - Mexico</option>
+    <!-- Continued... -->
+  </select>
+    <!-- Continued... -->
+  </select>
+  <br><br>
+  <hr>
+    Tell us what we can do better:
+    <br>
+    <textarea cols="35" rows="10" maxlength="500" name="comments" id=test-textarea>Enter up to 500 characters... </textarea>
+
+  <br><br>
+
+  <button>
+      <img src="./images/screenshot.png" alt="bcrc logao" width="50" height="50" />
+       Submit!
+    </button>
+    </form>
+  </body>
+  </html>
