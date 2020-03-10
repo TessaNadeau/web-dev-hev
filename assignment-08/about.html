@@ -11,6 +11,9 @@
   content="Justine Evans">
   <title> About Assignment 8</title>
   <style>
+  .page-block {background: white;}
+  .centered {text-align: Left;}
+  .first-line {font-style: italic;}
     body {
           background-color: turquoise;
           text-align: Left;
@@ -23,7 +26,7 @@
 a{
   background-color: white;
   color: black;
-  padding: 5px;
+  padding: 1px;
 
 }
   </style>
@@ -36,10 +39,37 @@ a{
 <a href="./about.html">About</a>
 <a href="./contact.html">Contact</a>
   </nav>
-<h2>This is the about page.</h2>
+<h2>About</h2>
+<img src="./images/tent.jpeg" alt="tent" title="tent" width="300" height="200"/>
+<br>
+<a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1250%2F6093%2Fproducts%2FIRON_HORSE_TENT-14-X4.jpg%3Fv%3D1512597504&imgrefurl=https%3A%2F%2Fironhorsegear.com%2Fproducts%2F2-tent&tbnid=ey_FIlu-oYdFNM&vet=12ahUKEwiXztOLgI_oAhUUIH0KHRagCEIQMygregUIARCeAQ..i&docid=3Y_bHTmSTBFyEM&w=574&h=451&q=tent&ved=2ahUKEwiXztOLgI_oAhUUIH0KHRagCEIQMygregUIARCeAQ">Image Source</a>
 <p>
-  <img src="./images/step-01" alt="step one" title="setting up a tent" width="300" height="300"/>
+  <div id="text" class="page-block centered">
+<hr>I chose this project because I love setting up tents. At just five years old I could set up a tent. There's something about starting with a couple poles and some material and turning it into a place to sleep in. It's like setting up a fort when you are young. I enjoy the outdoors and I believe that knowing how to set up a tent is important! You can learn more by visiting <a href="https://www.wikihow.com/Set-Up-a-Tent">wikiHow!</a>
+<hr>
+</div>
 </p>
-
+<hr>
+<p><h4>Do you already know how to set up a tent?:</h4></p>
+  <input type="radio" name="level" value="yes" /> Yes!
+  <br />
+  <input type="radio" name="level" value="no" checked /> No:(
+  <br />
+  <hr>
+  <p><h4>Favorite part of camping:</h4></p>
+  <input type="checkbox" name="camping" value="tent" checked /> Setting up the tent
+  <br />
+  <input type="checkbox" name="camping" value="s'mores" /> Making s'mores
+  <br />
+  <input type="checkbox" name="camping" value="fishing"  /> Fishing
+  <br />
+  <input type="checkbox" name="camping" value="hiking" /> Hiking
+<hr>
+<p>
+  <h4>What is your favorite camping spot?:</h4>
+  <textarea name="fav spot" id="test-textarea">Enter up to 500 characters...</textarea>
+  <hr>
+  <input type="submit" name="submit"
+</p>
 </body>
 </html>
