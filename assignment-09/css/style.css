@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+.color-text {
+   color: rgb(31, 112, 56);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+.square {
+  width: 50%;
+ height: 50%;
+}
+
+#blue {
+  background-color: #152a75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-family: Calilibri;
+  text-align: left;
+
+}
+
+#red {
+  background-color: #bf2121;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#yellow {
+  background-color: #e0b044;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-size: 20px;
+  font-family: Calilibri;
+
+}
+#pink {
+  background-color: #dd8fc0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text-container{
+  /*the ,0.5 allows just the background color to have opacity added to it*/
+  background-color: rgb(31, 112, 56, 0.5);
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+ -webkit-transform: translate(-50%, -50%); /* Safari 3-8 */
+         transform: translate(-50%, -50%);
+font-size: 30px;
+font-family: Billionaire Medium Grunge;
+}
