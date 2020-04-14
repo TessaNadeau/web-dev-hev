@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville&display=swap');
+/* Page-Wide */
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(78, 158, 184);
+  padding: 5px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* paragraph content */
+.text{
+  background-color: rgb(78, 158, 184);
+  color: white;
+  padding:5px;
+  line-height: 2em
+}
+p:first-of-type:first-letter{
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: rgb(213, 142, 199)
+}
+
+/*"Read More!" link*/
+a {
+  background-color: rgb(213, 142, 199);
+  color: #FFFFFF;
+  padding: 5px;
+}
+a:hover {
+  font-style: italic;
+}
+a:visited {
+  color: rgb(218, 13, 13)
+ }
+a:active {
+  background-color: white;
+  color: rgb(78, 158, 184);
+
+}
