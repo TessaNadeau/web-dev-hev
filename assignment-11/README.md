@@ -1,3 +1,3 @@
 1. Borders are what we see surrounding the content. Padding is the distance in between the border and the content. The margin is the space between the box/element and other elements or the edge of the parent element.
-2. ![My Sketch](./images/sketch.jpg)
+2. ![My Sketch](./images/sketch.JPG)
 3. This week I started by reading through the assignment. Then I read through all of the website material. Then I watched the video and sketched out how I wanted my website to look. I really wanted the top three bars to be pulldowns but after many hours of trying I couldn't figure it out. However, I did accomplish most of what I was planning for. This was a tough section!
