@@ -1,0 +1,200 @@
+/*------------------------
+| CSS for General Styling |
+ ------------------------*/
+
+ /* SITE-WIDE ELEMENTS: */
+ body {
+   background-color: lightblue;
+   background-image:
+   background-repeat: repeat-x;
+   background-attachment:fixed;
+ }
+ h1, span {
+   margin: 0;
+   font-family: 'Pacifico', cursive;
+   color: salmon;
+   text-align: center;
+ }
+
+ h3 {
+   font-family: 'Arvo', serif;
+   font-size: 1em;
+ }
+
+ q {
+   font-family: 'Arvo', serif;
+   font-size: 2em;
+ }
+
+ a {
+  font-family: 'Arvo', serif;
+  text-decoration: none;
+  color:inherit;
+ }
+
+ * {
+   font-family: 'Arvo', serif;
+   color: #000;
+ }
+
+ /* LAYOUT AREAS: */
+ .main-container {
+   width: 60%:
+   max-width: 700px;
+   margin: 3em auto;
+   padding: 3em;
+
+   background-color: #FFF;
+   border-right: 15px solid #999;
+   border-bottom: 15px solid #666;
+ }
+
+ header {
+
+ }
+
+ main {
+   text-align: justify;
+   margin: 3em 0;
+
+ }
+
+ footer {
+   text-align: center;
+   font-size: .75em;
+   margin-top: 3em;
+ }
+
+ /* LAYOUT-PIECES */
+
+ /* Site Information: */
+
+ .site-heading {
+   width: 50%;
+   margin: 4em auto;
+   padding: 30px;
+   position: relative;
+   z-index: 1;
+
+   border: 5px double rgb(149, 60, 219);
+
+   text-align: center;
+ }
+
+ #site-title {
+   margin: 3em;
+   line-height: 1em;
+   font-size: 3em;
+ }
+
+ #site-slogan {
+   font-size: 1em;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: salmon;
+ }
+
+ .site-logo {
+   margin: auto;
+   margin-top: -60px;
+   display: block;
+   position: relative;
+   z-index: 2;
+
+ }
+
+ .under-img {
+   width: 60px;
+   height: 60px;
+   z-index: 3;
+ }
+
+ .over-img {
+   width: 60px;
+   height: 60px;
+   z-index: 4;
+ }
+ .over-img:hover {
+   opacity: 0;
+ }
+
+ /* Blog post: */
+ .post-title {
+
+ }
+
+ .post-subtitle {
+  margin-left: 15px;
+  padding: 5px;
+  border-left: 5px double #000;
+ }
+
+ .post-content {
+   line-height: 1.45em;
+ }
+
+ .post-content p {
+   margin: 2em 0;
+ }
+
+ .post-content p:first-letter {
+   margin-right: 1px;
+   font-size: 2em;
+   font-weight: 400;
+   color: chocolate;
+ }
+
+
+.button {
+  margin: auto;
+  position: relative;
+
+  background-color: chocolate;
+  border-color: #999  #666 #666 #999;
+  border-width: 10px 15px 15px 10px;
+  border-style: solid;
+
+  text-align: center;
+}
+.button:active {
+  background-color: saddlebrown;
+  border-color: #666 #999 #999 #666;
+  border-width: 10px 15px 15px 10px;
+  border-style: solid;
+}
+
+.button h3 {
+  color: #FFF;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.button h3:hover {
+  text-decoration: underline overline;
+  text-decoration-color: #FFF;
+  text-decoration-style: wavy;
+}
+
+.button h3:active {
+  color: salmon;
+  text-decoration: underline overline;
+  text-decoration-color: salmon;
+  text-decoration-style: wavy;
+}
+
+/* Decorative line break */
+  .line {
+    border-top: 5px double #000;
+  }
+/*For the Services Page*/
+.services-picture {
+margin: 1em;
+text-align: right;
+}
+
+
+}
+.about-picture {
+  margin: 1em;
+  text-align: right;
+}
