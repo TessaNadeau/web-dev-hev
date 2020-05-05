@@ -1,0 +1,86 @@
+/*------------------------
+| CSS for Navigation Menu |
+ ------------------------*/
+
+ /* MENU BAR (CONTAINER): */
+ @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+ * {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ menu {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(41, 51, 106);
+   text-align: center;
+   font size: 2em;
+ }
+
+ /* TOP-LEVEL LINKS: */
+ #site-links {
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+
+
+ }
+ #site-links .menu-item {
+   width: 6em;
+   background-color: rgb(0, 0, 0);
+   padding: 1em 1.5em;
+   text-align: center;
+   color: #FFF;
+
+
+
+ }
+ #site-links .menu-item:hover {
+   color: rgb(233, 217, 190);
+   text-decoration: underline overline;
+   text-decoration-color: rgb(240, 187, 53);
+   text-decoration-style: dotted;
+
+ }
+
+/* DROPDOWN: */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+
+#site-links .dropdown-content {
+  display: none;
+   position: absolute;
+
+   z-index: 5;
+   background-color: rgb(240, 187, 53);
+
+}
+
+#site-links .dropdown-content a {
+   color: #FFF;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#site-links .dropdown-content a:hover {
+  color: #FFF;
+  font-weight: 900;
+
+}
+
+#site-links .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#site-links .dropdown-item {
+  min-width: 6em;
+   padding: .5em 1em;
+   display: block;
+   text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(41, 51, 106);
+
+
+}
